@@ -3,16 +3,39 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>EasyTech</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content class="content" padding="true">
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  <h1 class="title">易思达洗车系统 </h1>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+
+<p>
+  <img  src="../../assets/imgs/alipay.jpeg" (click)="goAlipayPage()" />
+</p>
+
+<p>
+  <img  src="../../assets/imgs/wechat.jpg" (click)="goWechatPayPage()" />
+</p>
+
+  <!-- <ion-card (click)="goAlipayPage()">
+    <img  src="../../assets/imgs/alipay.jpeg" />
+    <ion-card-content>
+     <ion-card-title>
+      支付宝
+     </ion-card-title>
+    </ion-card-content>
+  </ion-card> -->
+
+  <!-- <ion-card (click)="goWechatPayPage()">
+    <img  src="../../assets/imgs/wechat.jpg" />
+    <ion-card-content>
+      <ion-card-title>
+        微信支付
+      </ion-card-title>
+    </ion-card-content>
+  </ion-card> -->
+
 </ion-content>

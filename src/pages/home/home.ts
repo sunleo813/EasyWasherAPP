@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { AlipayPage } from '../../pages/alipay/alipay';
+import { WechatPage } from '../wechat/wechat';
 
 @Component({
   selector: 'page-home',
@@ -11,4 +13,11 @@ export class HomePage {
 
   }
 
+  goAlipayPage(){
+    this.navCtrl.push(AlipayPage);
+  }
+
+  goWechatPayPage(){
+    this.navCtrl.push(WechatPage);
+  }
 }

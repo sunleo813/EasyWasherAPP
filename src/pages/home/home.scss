@@ -1,3 +1,23 @@
 page-home {
+    
 
+    .title{
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .content{
+        background-image: url("../../assets/imgs/bg.jpeg");
+        background-size: 100%;
+    }
+
+
+    img{
+        margin: auto;
+        max-width: 50%;
+        display: block;
+        height: 45%;
+    }
+ 
 }
