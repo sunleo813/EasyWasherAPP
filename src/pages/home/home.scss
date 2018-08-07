@@ -3,7 +3,7 @@ page-home {
 
     .title{
         text-align: center;
-        font-size: 2em;
+        font-size: 10em;
         font-weight: bold;
     }
 
@@ -15,9 +15,11 @@ page-home {
 
     img{
         margin: auto;
-        max-width: 50%;
+        width: 1200px;
+        height: 800px;
         display: block;
-        height: 45%;
+        
+        
     }
  
 }

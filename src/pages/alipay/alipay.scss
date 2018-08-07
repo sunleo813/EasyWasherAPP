@@ -1,3 +1,27 @@
-page-alipay {
+.content{
+    background-image: url("../../assets/imgs/bg.jpeg");
+    background-size: 100%;
+}
 
+.container{
+    position: absolute;
+    left: 30%;
+    top: 18%;
+    width: 100%;
+}
+
+img{
+    padding: 5px;
+    margin: auto;
+    width: 1200px;
+    height: 800px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+p{
+
+    font-size: 8em;
+    font-weight: bold;
 }
