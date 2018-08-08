@@ -12,6 +12,8 @@ import { WechatPage } from '../pages/wechat/wechat';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { ConfigProvider } from '../providers/config/config';
+import { DatePipe } from '@angular/common';
+
 
 @NgModule({
   declarations: [
@@ -37,6 +39,7 @@ import { ConfigProvider } from '../providers/config/config';
   providers: [
     StatusBar,
     SplashScreen,
+    DatePipe,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     ConfigProvider
   ]

@@ -12,6 +12,7 @@ export class ConfigProvider {
 
   public serviceURL="http://localhost:3000";
   public shopID="ZUH-001";
+  public price=20;
 
   constructor() {
     console.log('Hello ConfigProvider Provider');
@@ -23,5 +24,9 @@ export class ConfigProvider {
 
   getShopID(){
     return this.shopID;
+  }
+
+  getPrice(){
+    return this.price;
   }
 }
