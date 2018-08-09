@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
-import { HttpClientModule} from '@angular/common/http';
+import { HttpModule} from '@angular/http';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
@@ -8,6 +8,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { AlipayPage } from '../pages/alipay/alipay';
 import { WechatPage } from '../pages/wechat/wechat';
+import { RunPage } from '../pages/run/run';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,11 +22,12 @@ import { DatePipe } from '@angular/common';
     HomePage,
     ListPage,
     AlipayPage,
-    WechatPage
+    WechatPage,
+    RunPage
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
+    HttpModule,
     IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],
@@ -34,7 +36,8 @@ import { DatePipe } from '@angular/common';
     HomePage,
     ListPage,
     AlipayPage,
-    WechatPage
+    WechatPage,
+    RunPage
   ],
   providers: [
     StatusBar,
